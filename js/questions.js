@@ -109,17 +109,6 @@ let questions = [
       "A jornada"
     ]
   },
-    {
-    numb: 11,
-    question: "De qual filme é essa cena?",
-    answer: "Monstros S.A",
-    options: [
-      "Encanto",
-      "Monstros S.A",
-      "Universidade Monstros ",
-      "pocahontas"
-    ]
-  },
 ];
 
 //novo vetor
