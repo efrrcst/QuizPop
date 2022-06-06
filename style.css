@@ -102,10 +102,11 @@ body{
     transition: all 0.3s ease;
 }
 
-.imageQuestion {
+#imageQuestion {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 200px;
 }
 
 .quiz_box{
@@ -144,6 +145,7 @@ section{
 section .que_text{
     font-size: 25px;
     font-weight: 600;
+    color: white;
 }
 
 section .option_list{

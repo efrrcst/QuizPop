@@ -1,19 +1,18 @@
 let questions = [
     {
       numb: 1,
-      image: 'img/sullivan.jpg', //-> quando o parametro for criado, habilitar
-      question: "Um orfão descobre que herdou um presente dos seus pais,com isso ele usa o presente para ajudar outras pessoas.:",
+      question: "Um orfão descobre que herdou um presente dos seus pais,com isso ele usa o presente para ajudar outras pessoas:",
       answer: "Harry Potter",
       options: [
         "Batman",
-        "Harry potter",
+        "Harry Potter",
         "Boruto",
         "A invenção de Hugo Cabret"
     ]
   },
     {
-    numb: 2,
-    question: "Um menino desaparece, viaja no tempo e no final quem acaba viajando é você.:",
+    numb: 2,    
+    question: "Um menino desaparece, viaja no tempo e no final quem acaba viajando é você:",
     answer: "Dark",
     options: [
       "Dark",
@@ -24,18 +23,18 @@ let questions = [
   },
     {
     numb: 3,
-    question: "Homem que chuta pobre mas se apaixona por uma menina pobre que fere o ego dele.:",
+    question: "Homem que chuta pobre mas se apaixona por uma menina pobre que fere o ego dele:",
     answer: "Orgulho e Preconceito",
     options: [
       "Jogo vorazes",
-      "Orgulho e preconceito",
+      "Orgulho e Preconceito",
       "Uma linda mulher",
       "Razão e Sensibilidade"
     ]
   }, 
     {
     numb: 4,
-    question: "mulher vaza e ele vira multimilionário.:",
+    question: "mulher vaza e ele vira multimilionário:",
     answer: "A procura da felicidade",
     options: [
       "Prenda-me se for capaz",
@@ -46,7 +45,7 @@ let questions = [
   },
     {
     numb: 5,
-    question: "Jovem mulher não reconhece doença mental e casa com seu sequestrador.:",
+    question: "Jovem mulher não reconhece doença mental e casa com seu sequestrador:",
     answer: "Bela e a Fera",
     options: [
       "365 Dias",
@@ -57,7 +56,7 @@ let questions = [
   },
     {
     numb: 6,
-    question: "Uma menina viveu e cárcere privado até que um ladrão invade a sua casa e a leva para cidade em troca de um recompensa.:",
+    question: "Uma menina viveu e cárcere privado até que um ladrão invade a sua casa e a leva para cidade em troca de um recompensa:",
     answer: "Enrolados",
     options: [
       "Enrolados",
@@ -79,10 +78,10 @@ let questions = [
   },
     {
     numb: 8,
-    question: "Ele vai visitar os pais da companheira pela primeira vez,e descobre que eles são preconceituosos e bolaram um plano para outro cara roubar sua identidade.:",
-    answer: "Sherk 2",
+    question: "Ele vai visitar os pais da companheira pela primeira vez,e descobre que eles são preconceituosos e bolaram um plano para outro cara roubar sua identidade:",
+    answer: "Shrek 2",
     options: [
-      "Sherk 2 ",
+      "Shrek 2",
       "Corra",
       "Cuckoo",
       "Historias Cruzadas"
@@ -90,18 +89,18 @@ let questions = [
   },
     {
     numb: 9,
-    question: "Dois homens se disfarçam de mulher,convivem com meninas ricas para desvendar um crime.:",
-    answer: "A vovózona",
+    question: "Dois homens se disfarçam de mulher,convivem com meninas ricas para desvendar um crime:",
+    answer: "A vovózona 3",
     options: [
       "As branquelas",
       "Bad Boys",
-      "A vovózona",
+      "A vovózona 3",
       "Tootsie"
     ]
   },
     {
     numb: 10,
-    question: "Pensaram que ele tinha morrido, mas a lei do amor trouxe ele de volta de um mundo paralelo.:",
+    question: "Pensaram que ele tinha morrido, mas a lei do amor trouxe ele de volta de um mundo paralelo:",
     answer: "Interestellar",
     options: [
       "Stranger Things",
@@ -122,3 +121,10 @@ let questions = [
     ]
   },
 ];
+
+//novo vetor
+
+//nova variavel]
+
+var imagem1 = new Image()
+imagem1.src = "img/sullivan.jpg";

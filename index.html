@@ -11,7 +11,6 @@
 <body>
     <!-- startando botão Quiz --> 
     <div class="start_btn"><button>Iniciar</button></div>
-    <!-- carregando <div class = "dual-ring"></div>--> 
 
     <!-- Box de infos -->
     <div class="info_box">
@@ -28,48 +27,46 @@
         </div>
     </div>
 
-    <!-- Quiz Box -->
+    <!-- box do Quiz id no header get element by id url caminho da imagem no css -->
    
     <div class="quiz_box">
         <header>
-            <figure class='imageQuestion'>
-                <img id="" src="" alt="Img da questao" width="200px"/>
-            </figure>
-            <!-- barrinha progresso <progress max="100" value="70"></progress>-->
+            <div id='imageQuestion'>
+                
+            </div>
         </header>
+
         <section>
             <div class="que_text">
-                <!-- Here I've inserted question from JavaScript -->
+                <!-- pergunta do js -->
             </div>
             <div class="option_list">
-                <!-- Here I've inserted options from JavaScript -->
+                <!-- opções do js -->
             </div>
         </section>
 
-        <!-- footer of Quiz Box -->
         <footer>
             <div class="total_que">
-                <!-- Here I've inserted Question Count Number from JavaScript -->
+                <!-- aqui vai vir a contagem do js -->
             </div>
             <button class="next_btn">Próxima pergunta</button>
         </footer>
     </div>
 
-    <!-- Result Box -->
+    <!-- Box de resultado -->
     <div class="result_box">
         <div class="icon">
             <i class="fas fa-crown"></i>
         </div>
-        <div class="complete_text">You've completed the Quiz!</div>
+        <div class="complete_text">Você completou o quiz!</div>
         <div class="score_text">
-            <!-- Here I've inserted Score Result from JavaScript -->
+            <!-- aqui vem o resultado do js -->
         </div>
         <div class="buttons">
             <button class="restart">Replay Quiz</button>
             <button class="quit">Quit Quiz</button>
         </div>
     </div>
-    
 
     <!-- Inside this JavaScript file I've inserted Questions and Options only -->
     <script src="js/questions.js"></script>

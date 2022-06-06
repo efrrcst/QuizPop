@@ -6,8 +6,7 @@ const continue_btn = info_box.querySelector(".buttons .restart");
 const quiz_box = document.querySelector(".quiz_box");
 const result_box = document.querySelector(".result_box");
 const option_list = document.querySelector(".option_list");
-//const figure_list = document.getElementById(".imageQuestions");
-document.getElementById(".imageQuestions").innerHTML = '<img src='img/'>';
+const figure_list = document.getElementById(".imageQuestions");
 
 // se clicar no botão startQuiz
 start_btn.onclick = ()=>{
@@ -86,7 +85,9 @@ function showQuetions(index){
     //adicionar parametro img
     //image_list.setAttribute('src', questions[index].image);
     //let img_tag = '<img src="'+ questions[index].image +'">';
-   // let img = '<img src="'+ questions[index].image +'">';
+    let img = '<img src="'+ questions[index].image +'">';
+
+    //figure_list.style.backgroundImage = "url(" +question[index].image[0] + ");"
 
     let que_tag = '<span>'+ questions[index].numb + ". " + questions[index].question +'</span>';
     let option_tag = 
@@ -94,7 +95,7 @@ function showQuetions(index){
     + '<div class="option"><span>'+ questions[index].options[1] +'</span></div>'
     + '<div class="option"><span>'+ questions[index].options[2] +'</span></div>'
     + '<div class="option"><span>'+ questions[index].options[3] +'</span></div>';
-    
+
     //que_img.innerHTML = img_tag; //adicionando nova tag span dentro da ide que_img
     que_text.innerHTML = que_tag; //adicionando nova tag span dentro da ide que_tag
     option_list.innerHTML = option_tag; //adicionando nova div tag dentro da option_tag
