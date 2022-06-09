@@ -1,6 +1,7 @@
 let questions = [
     {
       numb: 1,
+      image: "img/sullivan.jpg",
       question: "Um orfão descobre que herdou um presente dos seus pais,com isso ele usa o presente para ajudar outras pessoas:",
       answer: "Harry Potter",
       options: [
@@ -11,7 +12,8 @@ let questions = [
     ]
   },
     {
-    numb: 2,    
+    numb: 2,   
+    image: "img/sullivan.jpg",
     question: "Um menino desaparece, viaja no tempo e no final quem acaba viajando é você:",
     answer: "Dark",
     options: [
@@ -23,6 +25,7 @@ let questions = [
   },
     {
     numb: 3,
+    image: "img/sullivan.jpg",
     question: "Homem que chuta pobre mas se apaixona por uma menina pobre que fere o ego dele:",
     answer: "Orgulho e Preconceito",
     options: [
@@ -34,6 +37,7 @@ let questions = [
   }, 
     {
     numb: 4,
+    image: "img/sullivan.jpg",
     question: "mulher vaza e ele vira multimilionário:",
     answer: "A procura da felicidade",
     options: [
@@ -45,6 +49,7 @@ let questions = [
   },
     {
     numb: 5,
+    image: "img/sullivan.jpg",
     question: "Jovem mulher não reconhece doença mental e casa com seu sequestrador:",
     answer: "Bela e a Fera",
     options: [
@@ -56,6 +61,7 @@ let questions = [
   },
     {
     numb: 6,
+    image: "img/sullivan.jpg",
     question: "Uma menina viveu e cárcere privado até que um ladrão invade a sua casa e a leva para cidade em troca de um recompensa:",
     answer: "Enrolados",
     options: [
@@ -67,6 +73,7 @@ let questions = [
   },
     {
     numb: 7,
+    image: "img/sullivan.jpg",
     question: "Onde você conhece uma cidade do interior que tem mais crimes do que o Rio de janeiro?:",
     answer: "Riverdalle",
     options: [
@@ -78,6 +85,7 @@ let questions = [
   },
     {
     numb: 8,
+    image: "img/sullivan.jpg",
     question: "Ele vai visitar os pais da companheira pela primeira vez,e descobre que eles são preconceituosos e bolaram um plano para outro cara roubar sua identidade:",
     answer: "Shrek 2",
     options: [
@@ -89,6 +97,7 @@ let questions = [
   },
     {
     numb: 9,
+    image: "img/sullivan.jpg",
     question: "Dois homens se disfarçam de mulher,convivem com meninas ricas para desvendar um crime:",
     answer: "A vovózona 3",
     options: [
@@ -100,6 +109,7 @@ let questions = [
   },
     {
     numb: 10,
+    image: "img/sullivan.jpg",
     question: "Pensaram que ele tinha morrido, mas a lei do amor trouxe ele de volta de um mundo paralelo:",
     answer: "Interestellar",
     options: [
@@ -115,5 +125,5 @@ let questions = [
 
 //nova variavel]
 
-var imagem1 = new Image()
-imagem1.src = "img/sullivan.jpg";
+//var imagem1 = new Image()
+//imagem1.src = "img/sullivan.jpg";
